@@ -1,0 +1,33 @@
+# AI投标技术文件采集补充运行 2026-11-16 17:29
+
+[关键词] 标书 生成 | 本次跳过（命令行指定）
+[关键词] 投标技术文件 | 本次跳过（命令行指定）
+[关键词] 施工组织设计 AI | 本次跳过（命令行指定）
+[关键词] bid document AI generator | 本次跳过（命令行指定）
+[关键词] tender technical proposal | 本次跳过（命令行指定）
+[关键词] construction bidding AI | 本次跳过（命令行指定）
+[关键词] topic:bid-document | 本次跳过（命令行指定）
+[关键词] rag 招投标 | 本次跳过（命令行指定）
+[关键词] 标书 查重 废标 | 本次跳过（命令行指定）
+  ✚ 强制项已拉取 tiettuo/claude-bid-gen (ADOPT, 9★)
+  ⊘ 强制项已收录，跳过 zeronezer/bidcraft
+  ✚ 强制项已拉取 hello-fengsir/godbiao (ADOPT, 31★)
+  ✚ 强制项已拉取 Get00/BiaoShu-SKILL (ADOPT, 215★)
+  ✚ 强制项已拉取 liwg1995/YuduBid (ADOPT, 256★)
+  ✚ 强制项已拉取 hanbon-labs/wenbiao (ADOPT, 5★)
+  ✚ 强制项已拉取 fb-labs/ZhiBiao (ADOPT, 10★)
+  ✚ 强制项已拉取 longsky21/dsh-bidding (REVIEW, 3★)
+  ✚ 强制项已拉取 lukaizj/SmartBid-Pro (REVIEW, 3★)
+  · AVOID 跳过 yddjh/technical-bid-templates-archive (flags=NO-LICENSE)
+  ✓ 收录 Get00/BiaoShu-SKILL (ADOPT, 215★) -> Get00__BiaoShu-SKILL.md
+  ✓ 收录 tiettuo/claude-bid-gen (ADOPT, 9★) -> tiettuo__claude-bid-gen.md
+  ✓ 收录 liwg1995/YuduBid (ADOPT, 256★) -> liwg1995__YuduBid.md
+  ✓ 收录 fb-labs/ZhiBiao (ADOPT, 10★) -> fb-labs__ZhiBiao.md
+  ✓ 收录 hello-fengsir/godbiao (ADOPT, 31★) -> hello-fengsir__godbiao.md
+  ✓ 收录 longsky21/dsh-bidding (REVIEW, 3★) -> longsky21__dsh-bidding.md
+  ✓ 收录 hanbon-labs/wenbiao (ADOPT, 5★) -> hanbon-labs__wenbiao.md
+  ✓ 收录 lukaizj/SmartBid-Pro (REVIEW, 3★) -> lukaizj__SmartBid-Pro.md
+  ⊘ 已收录，跳过 zeronezer/bidcraft
+  ⊘ 已收录，跳过 liwg1995/YuduBid
+
+核心 API 调用：33 | 搜索调用：1 | 限流：否

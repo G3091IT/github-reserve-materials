@@ -1,7 +1,7 @@
 # GitHub 储备资料仓库 · 总索引
 
 - **采集日期**：2026-11-16
-- **采集方式**：只读抓取公开仓库（github_scout 实时搜索+打分 + 领域关键词闸门过滤），全程未上传/未修改用户其他资料
+- **采集方式**：只读抓取公开仓库（github_scout 实时搜索+打分 + 领域关键词闸门过滤；AI投标技术文件由 ai_bid_tech_runner.py 专项采集），全程未上传/未修改用户其他资料
 - **API 调用**：核心 7 次 / 搜索 7 次
 - **限流状态**：已触发 403，部分主题顺延至次日
 
@@ -9,7 +9,7 @@
 - 01_招投标：5 个
 - 02_工程造价：6 个
 - 03_文档解析：6 个
-- 04_投标技术文件：2 个
+- 04_投标技术文件：10 个
 - 05_工程资料管理：2 个
 - 06_关联检索：4 个
 
@@ -33,6 +33,14 @@
 - [ADOPT] **run-llama/liteparse** — 03_文档解析/run-llama__liteparse.md
 - [REVIEW] **tianlian0/paper_checking_system** — 04_投标技术文件/tianlian0__paper_checking_system.md
 - [ADOPT] **zeronezer/bidcraft** — 04_投标技术文件/zeronezer__bidcraft.md
+- [ADOPT] **Get00/BiaoShu-SKILL** — 04_投标技术文件/Get00__BiaoShu-SKILL.md
+- [ADOPT] **fb-labs/ZhiBiao** — 04_投标技术文件/fb-labs__ZhiBiao.md
+- [ADOPT] **hanbon-labs/wenbiao** — 04_投标技术文件/hanbon-labs__wenbiao.md
+- [ADOPT] **hello-fengsir/godbiao** — 04_投标技术文件/hello-fengsir__godbiao.md
+- [ADOPT] **liwg1995/YuduBid** — 04_投标技术文件/liwg1995__YuduBid.md
+- [REVIEW] **longsky21/dsh-bidding** — 04_投标技术文件/longsky21__dsh-bidding.md
+- [REVIEW] **lukaizj/SmartBid-Pro** — 04_投标技术文件/lukaizj__SmartBid-Pro.md
+- [ADOPT] **tiettuo/claude-bid-gen** — 04_投标技术文件/tiettuo__claude-bid-gen.md
 - [ADOPT] **3xxx/engineercms** — 05_工程资料管理/3xxx__engineercms.md
 - [ADOPT] **datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction** — 05_工程资料管理/datadrivenconstruction__DDC_Skills_for_AI_Agents_in_Construction.md
 - [ADOPT] **IAAR-Shanghai/Awesome-AI-Memory** — 06_关联检索/IAAR-Shanghai__Awesome-AI-Memory.md
@@ -41,7 +49,7 @@
 - [ADOPT] **lhh737/KnowledgeBase-RAG-LLM-System** — 06_关联检索/lhh737__KnowledgeBase-RAG-LLM-System.md
 
 ## 本次运行新增
-- 本次运行无新增（幂等跳过/限流顺延均属正常）
+- AI投标技术文件专项：本次新增 0 个（无）
 
 ## 排除说明
 - `_excluded/` 目录存放因「领域闸门/负向过滤」判定为无关（如政治类高分噪声仓库）而剔除的候选，保留以供审计。
