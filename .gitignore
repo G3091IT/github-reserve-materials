@@ -1,0 +1,18 @@
+# 凭据与密钥——绝不入库
+*.token
+*.key
+*.pem
+github_token.json
+.env
+.credentials/
+
+# 运行日志与缓存（本地保留，不推送）
+__pycache__/
+*.pyc
+采集日志_*.md
+
+# 编辑器/系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

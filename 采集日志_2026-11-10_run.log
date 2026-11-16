@@ -1,0 +1,56 @@
+DONE archived=0 core=20 search=20 rate_hit=False
+LOG:
+[主题] 01_招投标 | task=招投标、电子投标相关的开源库与工具，（已有 5/6）
+  · 领域闸门排除 tendermint/tendermint (负向词命中:tendermint)
+  · 领域闸门排除 cometbft/tendermint-rs (负向词命中:tendermint)
+  合并候选 10，过闸门 8，本次处理 6
+  ⊘ 已收录，跳过 FB208/OpenBidKit_Yibiao
+  ⊘ 已收录，跳过 guangshu100/BidMaster-Pro
+  ⊘ 已收录，跳过 HunterLzap/rag-tender
+  ⊘ 已收录，跳过 matongAI-lab/tender-review-kit
+  ⊘ 已在其他主题收录，跨主题去重跳过 zeronezer/bidcraft
+  ⊘ 已收录，跳过 danielcopper/romm-tender
+[主题] 02_工程造价 | task=工程造价、工程量清单、算量相关的开源（已有 2/6）
+  · 领域闸门排除 Kentucky-ai/opentakeoff (未命中领域词)
+  · 领域闸门排除 datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR (未命中领域词)
+  · 领域闸门排除 cirosantilli/china-dictatorship (负向词命中:六四)
+  · 领域闸门排除 cirosantilli/china-dictatroship-7 (负向词命中:六四)
+  · 领域闸门排除 mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8 (负向词命中:六四)
+  合并候选 12，过闸门 8，本次处理 3
+  ⊘ 已收录，跳过 jayden-lg/costing-master
+  ⊘ 已收录，跳过 BruceLee1024/zaojia-database
+  ⊘ 已在其他主题收录，跨主题去重跳过 datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction
+[主题] 03_文档解析 | 已收录 6（达上限 6），跳过搜索
+[主题] 04_投标技术文件 | task=施工组织设计、投标技术文件、标书生成（已有 2/6）
+  · 领域闸门排除 cirosantilli/china-dictatorship (负向词命中:blockchain)
+  · 领域闸门排除 cirosantilli/china-dictatroship-7 (负向词命中:blockchain)
+  · 领域闸门排除 mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8 (负向词命中:blockchain)
+  · 领域闸门排除 MAX-API-Next/MAX-API (未命中领域词)
+  · 领域闸门排除 esbatmop/MNBVC (未命中领域词)
+  合并候选 15，过闸门 8，本次处理 3
+  ⊘ 已在其他主题收录，跨主题去重跳过 FB208/OpenBidKit_Yibiao
+  ⊘ 已收录，跳过 zeronezer/bidcraft
+  ⊘ 已收录，跳过 tianlian0/paper_checking_system
+[主题] 05_工程资料管理 | task=工程资料管理、项目文档归档相关的开源（已有 1/6）
+  · 领域闸门排除 cirosantilli/china-dictatorship (负向词命中:六四)
+  · 领域闸门排除 greatghoul/remote-working (未命中领域词)
+  · 领域闸门排除 3xxx/engineercms (未命中领域词)
+  · 领域闸门排除 Barca0412/Introduction-to-Quantitative-Finance (未命中领域词)
+  · 领域闸门排除 Zchary1106/agent-interview-hub (未命中领域词)
+  · 领域闸门排除 lixeon/iiecas-kaoyan-bo-docs (未命中领域词)
+  · 领域闸门排除 cirosantilli/china-dictatroship-7 (负向词命中:六四)
+  · 领域闸门排除 mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8 (负向词命中:六四)
+  合并候选 16，过闸门 9，本次处理 1
+  ⊘ 已收录，跳过 datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction
+[主题] 06_关联检索 | task=招投标文档分析、评标、知识库检索，与（已有 4/6）
+  · 领域闸门排除 cirosantilli/china-dictatorship (负向词命中:六四)
+  · 领域闸门排除 cirosantilli/china-dictatroship-7 (负向词命中:六四)
+  · 领域闸门排除 mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8 (负向词命中:六四)
+  · 领域闸门排除 JEen-wang/Adaptive-rag (负向词命中:电商)
+  · 领域闸门排除 chaitin/PandaWiki (负向词命中:博客)
+  · 领域闸门排除 sunkaifei/FlyCms (负向词命中:cms)
+  · 领域闸门排除 ZeroTang05/cyber-doctor (负向词命中:医疗)
+  · 领域闸门排除 quuuuj/hrm (负向词命中:人事)
+  · 领域闸门排除 via007/bilibili-rag (负向词命中:bilibili)
+  合并候选 15，过闸门 10，本次处理 1
+  ⊘ 已收录，跳过 lhh737/KnowledgeBase-RAG-LLM-System

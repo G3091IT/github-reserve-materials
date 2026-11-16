@@ -1,0 +1,14 @@
+DONE archived=0 core=3 search=3 rate_hit=True
+LOG:
+[主题] 01_招投标 | task=招投标、电子投标相关的开源库与工具，（已有 5/6）
+  ✗ 子查询失败 [electronic bidding]: rate_limit_guard
+  · 领域闸门排除 tendermint/tendermint (负向词命中:tendermint)
+  · 领域闸门排除 cometbft/tendermint-rs (负向词命中:tendermint)
+  合并候选 9，过闸门 8，本次处理 6
+  ⊘ 已收录，跳过 FB208/OpenBidKit_Yibiao
+  ⊘ 已收录，跳过 guangshu100/BidMaster-Pro
+  ⊘ 已收录，跳过 HunterLzap/rag-tender
+  ⊘ 已在其他主题收录，跨主题去重跳过 zeronezer/bidcraft
+  ⊘ 已收录，跳过 matongAI-lab/tender-review-kit
+  ⊘ 已收录，跳过 danielcopper/romm-tender
+⚠ 触发 403 限流，本次运行终止，剩余主题留待次日。
