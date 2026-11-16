@@ -193,11 +193,11 @@ tags: [公开学习库, <主题>, <关键词>]
 
 ## 9. 落地现状与待办（2026-11-16）
 
-- **已就绪**：仓库结构（01~06 主题 + 07_Issues/08_外部链接 + _excluded）、`scout_runner.py`（A1 仓库抓取，已收录 25 个）、README 总索引、采集日志机制、三套 frontmatter 模板、`.gitignore`。
-- **GitHub 接入**：gh CLI 2.104.0 已装；账户 **G3091IT** 认证完成（scope：repo/read:org/gist）。
-- **公开仓库**：`G3091IT/github-reserve-materials` 已创建并设为**公开**，本地 1 次初始提交已推送，远端 16 个顶层条目齐全，工作区干净。
+- **已就绪**：仓库结构（01~06 主题 + 07_Issues/08_外部链接 + _excluded）、`scout_runner.py`（A1 仓库抓取，已收录 25 个）、`issue_runner.py`（A2 Issue 抓取，已建成并试跑通过）、README 总索引、采集日志机制、三套 frontmatter 模板、`.gitignore`。
+- **GitHub 接入**：gh CLI 2.104.0 已装；账户 **G3091IT** 认证完成（scope：repo/read:org/gist）；令牌已写入采集器凭据文件，配额从匿名 60/时提升至认证 **5000/时核心、30/分搜索**。
+- **公开仓库**：`G3091IT/github-reserve-materials` 已创建并设为**公开**，本地提交已推送，工作区干净。
 - **边界已明确**：本工作流按第 1 节"整体方案与边界模型"执行——GitHub 专司对外抓取学习资料，外部资料统一入公开仓库，与本机资料严格隔离，需要时回抓本地使用。
-- **待办**：`issue_runner.py`（A2 Issue 抓取）尚未编写，待需要时补；采集器当前匿名只读（60/时，易触发 403），如需提配额可将 gh 令牌导出为 `GITHUB_TOKEN` 供采集器复用（待用户决定）。
+- **待办**：`issue_runner.py` 各主题的 Issue 收录量将随夜间/手动运行逐步累积；如需提搜索配额精细度，可后续调整 `SEARCH_SLEEP` 与 `CORE_BUDGET`。
 
 ---
 
